@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//stackusinglinkedlist_4nimbelakang
-
 // Node class representing a single node in the linked list
 class Node {
     public:
@@ -12,4 +10,10 @@ class Node {
     Node() {
         next = NULL;
     }
+};
+
+class Stack {
+    private:
+    Node *top; // Pointer to the top nod of the stack
+
 };
