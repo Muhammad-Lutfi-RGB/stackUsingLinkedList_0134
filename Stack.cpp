@@ -90,3 +90,7 @@ int main() {
             case 3:
             Stack.peek();
             break;
+
+            case 4:
+            cout << "exiting program." << endl;
+            break;
