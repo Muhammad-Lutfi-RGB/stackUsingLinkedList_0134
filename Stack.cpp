@@ -27,3 +27,10 @@ class Stack {
         newNode->data = value; // 2. assign value
         newNode->next = top; // 3. set the next pointer of the new node to the current top
         top = newNode; // 4. update the top pointer to the new node
+        cout << "Push value: " << value << endl;
+        return value;
+    } 
+// Is empty operation: check if the stack is empty
+bool isEmpty () {
+    return top == NULL; // Return true if the top pointer is NULL, indicating an empty stack
+}
