@@ -61,3 +61,9 @@ void peek() {
     } // return the value to the top node
 }    
 };
+
+int main() {
+    Stack Stack;
+
+    int choice = 0;
+    int value;
